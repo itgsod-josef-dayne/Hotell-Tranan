@@ -1,0 +1,19 @@
+html
+
+div#Container{
+    width:79em;
+    height:auto;
+}
+
+div#menu{
+    padding-top:1em;
+    width:auto;
+    height:2.5em;
+    background-color:#666;
+}
+
+div#menu a{
+    padding-left: 1em;
+    padding-right:1em;
+}
+
