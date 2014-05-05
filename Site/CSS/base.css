@@ -3,23 +3,26 @@ html {
 }
 
 div#Container{
-    width:79em;
+    width:800px;
     height:auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: blue;
+}
+
+div#Menu{
+    width:auto;
+    height:100px;
+    padding-top: 50px;
+    color:red;
+}
+
+#Menu a{
+
 }
 
 div#header{
     image:url(.../Raw_Pictures/kikut-Entrep-Asfalt.jpg)
 }
 
-div#menu{
-    padding-top:1em;
-    width:auto;
-    height:2.5em;
-    background-color:#666;
-}
-
-div#menu a{
-    padding-left: 1em;
-    padding-right:1em;
-}
 
