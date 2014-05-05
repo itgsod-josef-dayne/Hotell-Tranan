@@ -1,8 +1,14 @@
-html
+html {
+    background-color:peru;
+}
 
 div#Container{
     width:79em;
     height:auto;
+}
+
+div#header{
+    image:url(.../Raw_Pictures/kikut-Entrep-Asfalt.jpg)
 }
 
 div#menu{
