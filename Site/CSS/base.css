@@ -1,8 +1,9 @@
-html {
-    background-color:peru;
+html{
+    background-image:url("../../Pictures/Background.png");
+    background-repeat:repeat-x;
 }
 
-div#Container{
+#Container{
     width:800px;
     height:auto;
     margin-right: auto;
@@ -10,29 +11,23 @@ div#Container{
 
 }
 
-div#Picture{
-    padding-top:55px;
+#Picture{
+    padding-top:1px;
 }
 
-div#Menu{
-    position:fixed;
+#Menu{
     width:800px;
     height:50px;
     padding-top:1px;
-    background-color:red;
+    background-image:url("../../pictures/Menu.png");
 }
 
 #Menu a{
     padding-left: 90px;
 
 }
-.button-link {
-    padding: 10px 15px;
-    background: #4479BA;
-    color: #FFF;
-}
 
-div#Content{
+#Content{
     width:auto;
     height:350px;
 }
