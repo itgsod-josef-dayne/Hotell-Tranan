@@ -19,7 +19,7 @@ html{
     width:800px;
     height:50px;
     padding-top:1px;
-    background-image:url("../../pictures/Menu.png");
+    background-image:url("../../Pictures/Menu.png");
 }
 
 #Menu a{
@@ -30,7 +30,22 @@ html{
 #Content{
     width:auto;
     height:350px;
+    padding-bottom:3em;
 }
 
+#Footer {
+    box-shadow:3px 3px 1px #666;
+    width: 800px;
+    height:25px;
+    position: fixed;
+    bottom:5px;
+    border-radius: 300px;
+    background-image:url("../../Pictures/Menu.png");
+}
+
+#Footer a {
+    padding-left: 80px;
+    padding-right: 20px;
+}
 
 
