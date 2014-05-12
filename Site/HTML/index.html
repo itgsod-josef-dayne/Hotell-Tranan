@@ -5,6 +5,29 @@
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="../css/base.css"/>
     <link rel="icon" href="../../Raw%20Pictures/favicon.ico"/>
+    <script language="JavaScript1.1">
+        var slideimages=new Array()
+        var slidelinks=new Array()
+        function slideshowimages(){
+        for (i=0;i<slideshowimages.arguments.length;i++){
+        slideimages[i]=new Image()
+        slideimages[i].src=slideshowimages.arguments[i]
+        }
+        }
+
+        function slideshowlinks(){
+        for (i=0;i<slideshowlinks.arguments.length;i++)
+        slidelinks[i]=slideshowlinks.arguments[i]
+        }
+
+        function gotoshow(){
+        if (!window.winslide||winslide.closed)
+        winslide=window.open(slidelinks[whichlink])
+        else
+        winslide.location=slidelinks[whichlink]
+        winslide.focus()
+        }
+    </script>
 </head>
 <body>
 
@@ -23,6 +46,9 @@
         <div id="Content">
             <h3>Vårt Hotell</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam egestas elit eu nulla interdum, a sagittis nulla ornare. In cursus nisl non ante rutrum euismod. Nullam rutrum a mauris non vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam dolor ligula, consectetur in lacus a, sollicitudin cursus dolor. Morbi dignissim adipiscing urna. Mauris quam massa, luctus vel nunc nec, hendrerit scelerisque felis. Integer nulla sapien, dignissim eget quam nec, dapibus sodales velit. Fusce elit lorem, tincidunt ut enim vitae, pretium congue nulla. Praesent id diam ac mi sodales cursus. Phasellus ultricies mi vitae magna pharetra, in eleifend quam posuere. In id pulvinar dolor. Donec consequat, felis a semper interdum, odio sem fermentum neque, non mollis nulla augue ut lacus. Nam sed fringilla magna, non egestas orci. Nunc lacus mi, tincidunt semper nisi tempor, aliquam pretium ligula. Vestibulum tempus aliquet nibh, sit amet semper felis consectetur quis<p/>
+        </div>
+        <div id="Script">
+            <script type="text/javascript" src="../Javascript/slideshow.js"></script>
         </div>
         <div id="Footer"><a href="http://goo.gl/iH2NiR" target="_blank">Addres: Awsomenessvägen 1337 </a> <a href="mailto:Tranan.awsome@gmail.com">E-mail: Tranan.awsome@gmail.com</a> <a href="http://goo.gl/Xpm1bx" target="_blank">Telefon: 070-1337-420</a> </div>
 
