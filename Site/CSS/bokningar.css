@@ -1,0 +1,29 @@
+#Room1 p {
+    padding-top:5px;
+    width:490px;
+    height:250px;
+    float:left;
+}
+
+#room1 button {
+    float:left;
+}
+
+#Room1 img {
+    margin-top:4px;
+    border-radius: 10px;
+    border: solid green 1px;
+}
+
+#Room2 p {
+    width:490px;
+    height:200px;
+    float:right;
+}
+
+#Room2 img {
+    margin-top:4px;
+    border-radius: 10px;
+    border: solid green 1px;
+    float:right;
+}
