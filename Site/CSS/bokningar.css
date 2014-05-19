@@ -1,8 +1,9 @@
 #Room1 p {
     padding-top:5px;
     width:490px;
-    height:250px;
+    height:180px;
     float:left;
+    background-color: pink;
 }
 
 #room1 button {
@@ -15,15 +16,27 @@
     border: solid green 1px;
 }
 
+#Book-bar {
+    width: 800px;
+    height: 25px;
+    background-color: red;
+}
+
+#room1 button {
+
+}
+
+
+
 #Room2 p {
     width:490px;
-    height:200px;
-    float:right;
+    height:150px;
+    float:left;
+    background-color: pink;
 }
 
 #Room2 img {
     margin-top:4px;
     border-radius: 10px;
     border: solid green 1px;
-    float:right;
 }

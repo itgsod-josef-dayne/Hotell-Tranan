@@ -42,9 +42,12 @@ html{
     background-image:url("../../Pictures/Menu.png");
 }
 
-#Footer a {
-    padding-left: 50px;
-    padding-right: 5px;
+#Footer a,a:visited {
+    color:darkslategrey;
+    margin-left: 50px;
+    margin-right: 5px;
+    text-decoration: none;
 }
+
 
 
