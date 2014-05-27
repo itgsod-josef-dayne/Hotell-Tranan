@@ -24,29 +24,17 @@ html{
 
 #Menu a{
     padding-left: 90px;
+    text-decoration: none;
 
+}
+
+#menu a:visited{
+    text-decoration: none;
 }
 
 #Content{
     width:auto;
     height:350px;
-}
-
-#Footer {
-    box-shadow:3px 3px 1px #666;
-    width: 800px;
-    height:25px;
-    position: fixed;
-    bottom:5px;
-    border-radius: 300px;
-    background-image:url("../../Pictures/Menu.png");
-}
-
-#Footer a,a:visited {
-    color:darkslategrey;
-    margin-left: 50px;
-    margin-right: 5px;
-    text-decoration: none;
 }
 
 

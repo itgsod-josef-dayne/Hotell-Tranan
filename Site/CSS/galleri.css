@@ -1,5 +1,4 @@
-#pictures img {
-    width:250px;
-    padding-top:10px;
-    padding-left:10px;
+#Pictures img {
+    margin:5px 5px 5px 7px;
+    border-radius: 3px;
 }
