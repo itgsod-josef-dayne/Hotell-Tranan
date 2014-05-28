@@ -2,3 +2,10 @@ p {
     width:500px;
 }
 
+#map {
+    float:right;
+}
+
+img {
+    margin-top:40px;
+}
