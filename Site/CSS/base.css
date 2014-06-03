@@ -37,9 +37,14 @@ html{
     height:350px;
 }
 
+/*@font-face {*/
+    /*font-family: ClearSans-Italic*/
+    /*src: url(./Font/WOFF/ClearSans-Italic.woff);*/
+/*}*/
+
 p {
+    font-family: sans-serif;
     letter-spacing:1px;
-    font-style: ;
 }
 
 
