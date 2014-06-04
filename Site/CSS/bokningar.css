@@ -5,8 +5,6 @@
     float:left;
 }
 
-
-
 #Room1 img {
     margin-top:4px;
     border-radius: 10px;
@@ -15,24 +13,24 @@
 
 #Book-bar {
     width: 800px;
-    height: 25px;
+    height: 30px;
 }
 
 #Room2 p {
-    padding-top:30px;
+    padding-top:5px;
     width:490px;
     height:160px;
-    float:left;
 }
 
 #Room2 img {
     margin-top:4px;
     border-radius: 10px;
     border: solid green 1px;
+    float:right;
 }
 
 #Room3 p {
-    padding-top:30px;
+    padding-bottom:10px;
     width:490px;
     height:150px;
     float:left;
@@ -42,11 +40,12 @@
     margin-top:4px;
     border-radius: 10px;
     border: solid green 1px;
+    float:right;
 
 }
 
 #Last-Book-bar {
     width: 800px;
     height: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
 }
