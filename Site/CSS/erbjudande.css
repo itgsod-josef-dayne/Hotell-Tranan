@@ -1,8 +1,56 @@
-#aktivitet1 p {
-    width:400px;
+#aktivitet1 h3{
+    margin-left:50px;
 }
+
+#aktivitet1 p {
+     width:400px;
+     heigh:170px;
+ }
 
 #aktivitet1 img {
     border-radius: 10px;
-    border-color: green;
+    border:solid green 1px;
+    float:right;
 }
+
+
+#aktivitet2 p {
+    width:400px;
+    heigh:170px;
+    float:right;
+}
+
+#aktivitet2 img {
+    border-radius: 10px;
+    border:solid green 1px;
+
+}
+
+#aktivitet2 h3{
+    padding-left:500px;
+}
+
+#book-bar2 {
+    padding-left:500px;
+}
+
+#aktivitet3 {
+    padding-top:50px;
+}
+
+#aktivitet3 h3{
+    margin-left:50px;
+}
+
+#aktivitet3 p {
+    width:400px;
+    heigh:170px;
+}
+
+#aktivitet3 img {
+    border-radius: 10px;
+    border:solid green 1px;
+    float:right;
+}
+
+

@@ -13,26 +13,27 @@
 
 #Book-bar {
     width: 800px;
-    height: 30px;
+    height: 25px;
 }
 
 #Room2 p {
-    padding-top:5px;
+    padding-top:10px;
     width:490px;
     height:160px;
 }
 
 #Room2 img {
     margin-top:4px;
+    margin-right:7px;
     border-radius: 10px;
     border: solid green 1px;
     float:right;
 }
 
 #Room3 p {
-    padding-bottom:10px;
+    padding-top:10px;
     width:490px;
-    height:150px;
+    height:160px;
     float:left;
 }
 
@@ -40,12 +41,10 @@
     margin-top:4px;
     border-radius: 10px;
     border: solid green 1px;
-    float:right;
-
 }
 
 #Last-Book-bar {
     width: 800px;
     height: 25px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
